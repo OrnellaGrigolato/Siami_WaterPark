@@ -12,7 +12,7 @@ const Navbar = () => {
                     <Col span={2}><a href="#">About</a></Col>
                     <Col span={2}><a href="#">Tickets</a></Col>
                     <Col span={2}><a href="#">Events</a></Col>
-                    <Col span={2}><a href="#">Partys</a></Col>
+                    <Col span={2}><a href="#">Parties</a></Col>
                     <Col span={2}><CartWidget className='k'/></Col>
                 </Row>
             </nav>
