@@ -19,11 +19,11 @@ Siam Water Park is a SPA promoting a water park. It functions as e-commerce, for
 
 ## Dependencies
 
-Using [Ant Design] (https://ant.design/) to style the application and access useful components.
+Using [Ant Design](https://ant.design/) to style the application and access useful components.
 
-Using [React Router Dom] (https://reactrouter.com/) for navigation
+Using [React Router Dom](https://reactrouter.com/) for navigation
 
-Using [Frammer Motion] (https://www.framer.com/motion/) to add animations
+Using [Frammer Motion](https://www.framer.com/motion/) to add animations
 
 ## Installation
 
