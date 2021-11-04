@@ -1,7 +1,7 @@
 
 # Siami WaterPark✨👙
 
-[Read this in english](readme.en.md)
+[Read this in english](https://github.com/OrnellaGrigolato/Siami_WaterPark/blob/main/README.en.md)
 
 Siami WaterPark es una SPA de promoción de una parque acuático con función de e-commerce para la venta de entradas y servicios.
 
