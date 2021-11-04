@@ -6,7 +6,6 @@ import {Link} from 'react-router-dom'
 
 const Navbar = () => {
     const categories = [
-,
         { id: '1', address: '/category/tickets', text: 'Tickets' },
         { id: '2', address: '/category/events', text: 'Events' },
         { id: '3', address: '/category/parties', text: 'Parties' },

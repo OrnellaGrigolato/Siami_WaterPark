@@ -61,9 +61,6 @@ function ItemDetailContainer() {
             case 3:
             case 4:
               return('Proximamente');
-            break
-            default:
-                break;
         }
     }
     return (
