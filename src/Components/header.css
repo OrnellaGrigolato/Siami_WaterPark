@@ -1,0 +1,12 @@
+.headerTitle{
+    color: #fff;
+    font-size: 5rem;
+}
+.header{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-position: center;
+}

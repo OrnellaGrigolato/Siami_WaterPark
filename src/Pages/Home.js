@@ -1,12 +1,19 @@
 import React from 'react'
-import Navbar from '../Components/Navbar';
+
 import ItemListContainer from '../Container/ItemListContainer';
+
+import Header from '../Components/Header';
+
+
 
 const Home = () => {
     return (
         <>
-            <Navbar/>
-            <ItemListContainer greeting={'Coder!'}/>
+
+            <Header />
+            <ItemListContainer/>
+
+
         </>
     )
 }

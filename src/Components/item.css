@@ -8,12 +8,19 @@
 }
 .card{
 width: 23rem;
-color: black;
+
 box-shadow: 2px 2px 15px 4px rgb(0 0 0 / 7%);
 -webkit-box-shadow: 2px 2px 15px 4px rgb(0 0 0 / 7%);
     -moz-box-shadow: 2px 2px 15px 4px rgb(0 0 0 / 7%);
     padding: 1rem;
     border-radius: 10%;
 }
+.card a{
+    color: #1E6C94;
+}
 
-
+.btn-info{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}

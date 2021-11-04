@@ -3,10 +3,10 @@ import Item from './Item'
 import './itemList.css'
 
 function ItemList(props) {
-            console.log(props)
+
 
     return (
-        <div className="container">{props.list.result.map(elem=>(<Item 
+        <div className="container">{props.list.map(elem=>(<Item 
             title={elem.title} 
             id={elem.id} 
             key={elem.id}
