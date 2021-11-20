@@ -8,11 +8,13 @@ const ContextFunction=({children})=>{
 
 
     const addItem=(item,quantity)=>{
-        if(!isInCar(item.list.numId)){
+
+        if(!isInCar(item.list.id)){
            setCart(cart.concat({item: item.list, quantity: quantity}))
         } else{
             const cartAux=cart.map((elem)=>{
-                if(elem.item.numId===item.list.numId){
+  
+                if(elem.item.id===item.list.id){
                     elem.quantity+=quantity
                 }
                 return elem
@@ -26,7 +28,7 @@ const ContextFunction=({children})=>{
     }
 
     const removeItem=(itemId)=>{
-        const auxCart= cart.filter(elem=> elem.item.numId!==itemId)
+        const auxCart= cart.filter(elem=> elem.item.id!==itemId)
         setCart(auxCart)
 
 
@@ -40,7 +42,7 @@ const ContextFunction=({children})=>{
     }
 
     const isInCar=(id)=>{
-        const product=cart.find((elem)=> {return elem.item.numId===id})
+        const product=cart.find((elem)=> {return elem.item.id===id})
         if(product!==undefined){
             return true
         } else{

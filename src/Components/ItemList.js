@@ -12,7 +12,8 @@ function ItemList(props) {
             key={elem.id}
             description={elem.description} 
             price={elem.price} 
-            pictureUrl={elem.pictureUrl}>
+            pictureUrl={elem.pictureUrl}
+            >
     
         </Item>))}</div>
             

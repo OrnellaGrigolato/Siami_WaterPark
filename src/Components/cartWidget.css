@@ -1,0 +1,13 @@
+.number{
+    position: absolute;
+    left: 53%;
+    top: 42%;
+    background-color: #2F9DD5;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    font-size: .7rem;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
