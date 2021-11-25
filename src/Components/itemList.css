@@ -8,3 +8,11 @@
 
 
 }
+
+@media  (max-width: 1450px){
+    .container{
+        justify-content: center;
+    
+    }
+
+}

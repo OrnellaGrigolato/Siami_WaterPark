@@ -4,6 +4,7 @@ import { Steps } from 'antd';
 import { Button } from 'antd';
 import {Link} from 'react-router-dom'
 import Date from '../Components/Date';
+import Payment from '../Components/Payment';
 import './cart.css'
 import { ScheduleOutlined, PlusCircleOutlined,CarryOutOutlined, SmileOutlined, DollarCircleOutlined } from '@ant-design/icons';
 
@@ -47,9 +48,10 @@ function Cart() {
               return  (cart[0]
                 ? (<Date></Date>)
                 : '');
+             case 3:
+               return <Payment/>
 
             case 2:
-            case 3:
             case 4:
               return(cart[0]
                 ? ('Proximamente')

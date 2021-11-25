@@ -10,3 +10,18 @@
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-position: center;
 }
+
+@media  (max-width: 820px){
+    .headerTitle{
+
+        font-size: 4rem;
+    }
+
+}
+
+@media  (max-width: 648px){
+    .headerTitle{
+        text-align: center;
+        font-size: 3rem;
+    }
+}
