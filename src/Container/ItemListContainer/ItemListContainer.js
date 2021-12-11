@@ -1,10 +1,15 @@
 import React, { useEffect, useState } from 'react';
+
+//components
 import './ItemListContainer.css';
 import ItemList from '../../Components/ItemList/ItemList';
-import { useParams } from 'react-router';
-import { LoadingOutlined } from '@ant-design/icons';
+
+//database
 import { db } from '../../Firebase/firebaseConfig';
 import { collection, query, where, getDocs } from 'firebase/firestore';
+
+import { useParams } from 'react-router';
+import { LoadingOutlined } from '@ant-design/icons';
 
 const ItemListContainer = () => {
   const [items, setItems] = useState('');
