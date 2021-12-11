@@ -3,6 +3,8 @@ import { useParams } from 'react-router';
 import ItemDetail from '../../Components/ItemDetail/ItemDetail';
 import { LoadingOutlined } from '@ant-design/icons';
 import './itemDetailContainer.css';
+
+//database
 import { db } from '../../Firebase/firebaseConfig';
 import { doc, getDoc } from 'firebase/firestore';
 
