@@ -1,0 +1,26 @@
+.footer{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 32px 0 rgb(0 0 0 / 10%);
+    bottom: 0;
+    z-index: 999;
+    height: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer button{
+    width: 7rem;
+    height: 3rem;
+    border-radius: 8%;
+}
+
+.steps{
+    margin: 2rem auto 2rem;
+    width: 90%;
+}
+
+

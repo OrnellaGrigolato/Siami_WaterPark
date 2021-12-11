@@ -13,9 +13,10 @@ Siami WaterPark es una SPA de promoción de una parque acuático con función de
 ## Funcionalidades
 
 - Filtro por categorías
-- Vista de lista de productos: vista general de productos con foto y detalles mínimos
+- Listado de productos: vista general de productos con foto y detalles mínimos
 - Vista de detalles: vista con todos los detalles del producto
 - Proceso de compra en pasos
+- Feedback instantáneo y validación de formulario de pago
 
 ## Dependencias
 
@@ -24,6 +25,10 @@ Uso de [Ant Design](https://ant.design/) para dar estilo a la aplicación y acce
 Uso de [React Router Dom](https://reactrouter.com/) para la navegación
 
 Uso de [Frammer Motion](https://www.framer.com/motion/) para agregar animaciones
+
+Uso de [Formik](https://formik.org/) para facilitar la validación de formularios y el manejo de errores
+
+Uso de [ESLint](https://eslint.org/) y [Prettier](https://prettier.io/) para mejorar la calidad del código
 
 
 ## Instalación

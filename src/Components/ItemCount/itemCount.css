@@ -1,0 +1,27 @@
+.counter{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ItemCount{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ItemCount div:first-child{
+    width: 50%;
+}
+
+.counter p{
+    margin: 0;
+}
+
+.stock{
+    font-size: .8rem;
+    width: 50%;
+    text-align: center;
+    margin-top: .8rem;
+}

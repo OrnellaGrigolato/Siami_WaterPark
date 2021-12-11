@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    cursor: default;
+    gap: 2rem;
+    margin: 0 auto;
+    width: 90%;
+
+
+}
+
+@media  (max-width: 1450px){
+    .container{
+        justify-content: center;
+    
+    }
+
+}

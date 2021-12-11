@@ -1,0 +1,12 @@
+.homeContainer{
+    background-color: #fdfdfd;
+
+}
+ .homeContainer h2.title{
+     text-align: center;
+     font-size: 1.3rem;
+     font-weight: 500;
+    background-color: #2379a2;
+    color: white;
+    padding: 2rem 0 2rem;
+ }

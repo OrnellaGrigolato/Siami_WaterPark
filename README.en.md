@@ -13,9 +13,10 @@ Siam Water Park is a SPA promoting a water park. It functions as e-commerce, for
 ## Features
 
 - Filter by categories
-- Product list view: product overview with photo and minimal details
+- List of products: product overview with photo and minimal details
 - Details view: view with all the details of the product
 - Purchase process in steps
+- Instant feedback and validation of pay form
 
 ## Dependencies
 
@@ -24,6 +25,10 @@ Using [Ant Design](https://ant.design/) to style the application and access usef
 Using [React Router Dom](https://reactrouter.com/) for navigation
 
 Using [Frammer Motion](https://www.framer.com/motion/) to add animations
+
+Using [Formik](https://formik.org/) to facilitate form validation and error handling 
+
+Using [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) to improve code quality
 
 ## Installation
 

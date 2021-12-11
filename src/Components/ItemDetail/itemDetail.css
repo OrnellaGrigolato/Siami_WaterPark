@@ -1,0 +1,56 @@
+.itemTitle{
+    text-align: center;
+    margin: 1.5rem 0;
+    font-size: 2rem;
+}
+
+.itemImg{
+    width: 50%;
+}
+
+.itemDetail{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.itemFlexContainer{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+
+}
+
+.itemDescription, .itemBenefits{
+    font-size: 1.2rem;
+}
+
+.itemPrice{
+    text-align: right;
+display: flex;
+justify-content: space-between;
+font-size: 1.4rem;
+font-weight: bold;
+    width: 90%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin:0 ;
+}
+  
+
+@media (max-width: 648px) {
+    /*Mobile View */
+    .itemFlexContainer{
+        flex-direction: column;
+        padding-bottom: 1rem;
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 3rem auto 0 ;
+    }
+  }

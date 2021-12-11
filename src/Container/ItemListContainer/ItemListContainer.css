@@ -1,0 +1,20 @@
+.ItemListContainer{
+    text-align: center;
+    width: 90%;
+    margin: 2rem auto;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    
+
+}
+
+.loading{
+text-align: center;
+margin: 3rem 0 3rem;
+
+}
+
+.loading h2{
+    display: inline;
+    margin-left: 1rem;
+}
