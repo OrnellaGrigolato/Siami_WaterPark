@@ -23,7 +23,6 @@ Siami WaterPark es una SPA de promoción de un parque acuático con función de 
 - Validación de todos los datos del formulario de compra utilizando expresiones regulares.
 - Interfaz adaptable a móviles.
 - Uso de Context para almacenar y pasar información. 
-- Llamada a la API de [Unsplash](https://unsplash.com/es) para utilizar fotos en una galería de imágenes.
 - Datos de los productos almacenados en [Firebase](https://firebase.google.com/?hl=es), llamada a su API para mostrarlos al usuario.
 
 <br />

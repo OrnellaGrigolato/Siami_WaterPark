@@ -25,7 +25,6 @@ Siami Water Park is a SPA promoting a water park. It functions as e-commerce, fo
 - Validation of all data in the purchase form using regular expressions.
 - Mobile-friendly interface.
 - Use of Context to store and pass information.
-- [Unsplash](https://unsplash.com/es) API call to use photos in an image gallery.
 - Product data stored in [Firebase](https://firebase.google.com/?hl=es), call to its API to display it to the user.
 
 <br/>
