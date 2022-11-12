@@ -22,7 +22,7 @@ Siami Water Park is a SPA promoting a water park. It functions as e-commerce, fo
 - Details view: view with all product details.
 - Purchase process in steps.
 - Instant feedback.
-- Validation of all the data in the purchase form.
+- Validation of all data in the purchase form using regular expressions.
 - Mobile-friendly interface.
 - Use of Context to store and pass information.
 - [Unsplash](https://unsplash.com/es) API call to use photos in an image gallery.
@@ -44,13 +44,13 @@ My goal was to simulate a professional working environment 👩🏻‍💻.
 
 ## How to navigate through this project: its most interesting parts
 
-Validation of the purchase form: 
+Validation of the purchase form: [Code](https://github.com/OrnellaGrigolato/Siami_WaterPark/blob/6080d7c79efe2eb827ed070951a825c95bff67e6/src/Components/Cart/Cart.js#L112)
 
-Shopping cart and how it works:
+Shopping cart and how it works: [Code](https://github.com/OrnellaGrigolato/Siami_WaterPark/blob/6080d7c79efe2eb827ed070951a825c95bff67e6/src/Components/Cart/Cart.js#L58)
 
-The Context:
+The Context: [Code](https://github.com/OrnellaGrigolato/Siami_WaterPark/blob/6080d7c79efe2eb827ed070951a825c95bff67e6/src/Context/CartContext.js#L4)
 
-Api call:
+Api call: [Code](https://github.com/OrnellaGrigolato/Siami_WaterPark/blob/6080d7c79efe2eb827ed070951a825c95bff67e6/src/Container/ItemDetailContainer/ItemDetailContainer.js#L16)
 
 <br/>
 

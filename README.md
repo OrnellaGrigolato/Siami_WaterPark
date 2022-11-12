@@ -20,7 +20,7 @@ Siami WaterPark es una SPA de promoción de un parque acuático con función de 
 - Vista de detalles: vista con todos los detalles del producto.
 - Proceso de compra en pasos.
 - Feedback instantáneo
-- Validación de todos los datos del formulario de compra.
+- Validación de todos los datos del formulario de compra utilizando expresiones regulares.
 - Interfaz adaptable a móviles.
 - Uso de Context para almacenar y pasar información. 
 - Llamada a la API de [Unsplash](https://unsplash.com/es) para utilizar fotos en una galería de imágenes.
@@ -42,13 +42,13 @@ Mi objetivo era simular un entorno de trabajo profesional 👩🏻‍💻.
 
 ## Cómo navegar por este proyecto: sus partes más interesantes
 
-Validación del formulario de compra: 
+Validación del formulario de compra: [Código](https://github.com/OrnellaGrigolato/Siami_WaterPark/blob/6080d7c79efe2eb827ed070951a825c95bff67e6/src/Components/Cart/Cart.js#L112)
 
-Carrito de compra y su funcionamiento:
+Carrito de compra y su funcionamiento: [Código](https://github.com/OrnellaGrigolato/Siami_WaterPark/blob/6080d7c79efe2eb827ed070951a825c95bff67e6/src/Components/Cart/Cart.js#L58)
 
-El Context:
+El Context: [Código](https://github.com/OrnellaGrigolato/Siami_WaterPark/blob/6080d7c79efe2eb827ed070951a825c95bff67e6/src/Context/CartContext.js#L4)
 
-Llamada a Api:
+Llamada a Api: [Código](https://github.com/OrnellaGrigolato/Siami_WaterPark/blob/6080d7c79efe2eb827ed070951a825c95bff67e6/src/Container/ItemDetailContainer/ItemDetailContainer.js#L16)
 
 <br />
 
