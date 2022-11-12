@@ -3,43 +3,95 @@
 
 [Leer esto en español](https://github.com/OrnellaGrigolato/Siami_WaterPark/blob/main/README.md)
 
-Siam Water Park is a SPA promoting a water park. It functions as e-commerce, for the sale of tickets and services.
+Siami Water Park is a SPA promoting a water park. It functions as e-commerce, for the sale of tickets and services.
+
+<br/>
 
 ## Application running
 
 ![Siami WaterPark running](https://github.com/OrnellaGrigolato/Siami_WaterPark/blob/main/Siami_Waterpark_Running.gif)
 
+<br/>
 
-## Features
 
-- Filter by categories
-- List of products: product overview with photo and minimal details
-- Details view: view with all the details of the product
-- Purchase process in steps
-- Instant feedback and validation of pay form
+## Features & Technical Details
+
+- Filter by category.
+- List of advantages.
+- Product list: product overview with photo and partial details.
+- Details view: view with all product details.
+- Purchase process in steps.
+- Instant feedback.
+- Validation of all the data in the purchase form.
+- Mobile-friendly interface.
+- Use of Context to store and pass information.
+- [Unsplash](https://unsplash.com/es) API call to use photos in an image gallery.
+- Product data stored in [Firebase](https://firebase.google.com/?hl=es), call to its API to display it to the user.
+
+<br/>
+
+## How I worked on this project
+
+My goal was to simulate a professional working environment 👩🏻‍💻. 
+
+- I created a brand identity, including name, logo and colour palette.
+
+- I separated each requirement into sub-tasks.
+
+- I wrote tidy and reusable code, separated components into folders and commented out sections that required it.
+
+<br/>
+
+## How to navigate through this project: its most interesting parts
+
+Validation of the purchase form: 
+
+Shopping cart and how it works:
+
+The Context:
+
+Api call:
+
+<br/>
+
+## Why I built the project this way ❔
+This project required a library like React because of its benefits. React allowed me to create reusable components, saving me time and effort. It also makes maintaining a project of this size much easier.
+The use of State and Context made it easy for me to manage and update information. 
+React Router helped me create the routing for this application, it made filtering the different products much easier to develop.
+Storing the product information in Firebase reduced the load on the project and improved performance.
+
+<br/>
+
+## What else would I add to this project? 🚀
+
+* Ability to view purchase history by storing information in Local Storage or Firebase.
+* Administrator interface, to add/remove/modify products as required and facilitate maintenance.
+* The ability to register to create a blog to share photos, comments and opinions.
+
+<br/>
 
 ## Dependencies
 
 Using [Ant Design](https://ant.design/) to style the application and access useful components.
 
-Using [React Router Dom](https://reactrouter.com/) for navigation
+Using [React Router Dom](https://reactrouter.com/) for navigation.
 
-Using [Frammer Motion](https://www.framer.com/motion/) to add animations
+Using [Frammer Motion](https://www.framer.com/motion/) to add animations.
 
-Using [Formik](https://formik.org/) to facilitate form validation and error handling 
+Using [Formik](https://formik.org/) to facilitate form validation and error handling.
 
-Using [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) to improve code quality
+Using [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) to improve code quality.
 
 ## Installation
 
-1. Fork and clone the repository
+1. Fork and clone the repository.
 
 2. At the root of the project, run the command
 
    ```
    npm install
    ```
-   to install all project dependencies
+   to install all project dependencies.
 
 3. Use 
 
@@ -54,6 +106,6 @@ Using [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) to impr
 
 Ornella Grigolato
 
-2021
+2022
 
 

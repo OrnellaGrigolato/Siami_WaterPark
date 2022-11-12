@@ -1,13 +1,17 @@
 import React from 'react';
 import ItemListContainer from '../Container/ItemListContainer/ItemListContainer';
 import Header from '../Components/Header/Header';
+import Info from '../Components/Discover Section/Info';
 import './home.css';
+import Gallery from '../Components/Gallery/Gallery';
 
 const Home = () => {
   return (
     <div className="homeContainer">
       <Header />
-      <h2 className="title">Our best offers</h2>
+      <Info></Info>
+      <Gallery></Gallery>
+      <h2 className="title">━━ㅤOur Best Offersㅤ━━</h2>
       <ItemListContainer />
     </div>
   );

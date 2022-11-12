@@ -4,9 +4,10 @@
 }
  .homeContainer h2.title{
      text-align: center;
-     font-size: 1.3rem;
+     font-size: 1.7rem;
      font-weight: 500;
+     margin: 5rem 0 0;
     background-color: #2379a2;
     color: white;
-    padding: 2rem 0 2rem;
+    padding: 4rem 0 3rem;
  }

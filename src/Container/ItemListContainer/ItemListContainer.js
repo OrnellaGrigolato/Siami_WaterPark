@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 //components
 import './ItemListContainer.css';
 import ItemList from '../../Components/ItemList/ItemList';
+import Footer from '../../Components/Footer/Footer';
 
 //database
 import { db } from '../../Firebase/firebaseConfig';
@@ -10,6 +11,7 @@ import { collection, query, where, getDocs } from 'firebase/firestore';
 
 import { useParams } from 'react-router';
 import { LoadingOutlined } from '@ant-design/icons';
+// import facebook from '../assets/images/icon-facebook.svg';
 
 const ItemListContainer = () => {
   const [items, setItems] = useState('');
@@ -40,7 +42,10 @@ const ItemListContainer = () => {
       <h2>LOADING...</h2>
     </div>
   ) : (
-    <div className="ItemListContainer">{items && <ItemList list={items}></ItemList>}</div>
+    <>
+      <div className="ItemListContainer">{items && <ItemList list={items}></ItemList>}</div>
+      <Footer img={'./assets/images/icon-facebook.svg'}></Footer>
+    </>
   );
 };
 

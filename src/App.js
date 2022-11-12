@@ -20,9 +20,6 @@ function App() {
           <Navbar />
           <Switch>
             <Route exact path="/item/:id" component={ItemDetailContainer} />
-            <Route exact path="/about">
-              <h1>Proximamente seccion about</h1>
-            </Route>
             <Route exact path="/cart" component={Cart} />
             <Route exact path="/category/:categoryId" component={ItemListContainer} />
             <Route exact path="/" component={Home} />

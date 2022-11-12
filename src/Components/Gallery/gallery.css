@@ -1,0 +1,30 @@
+.gallery-img {
+    object-fit: cover;
+    border-radius: 5%;
+    width: 100%;
+}
+
+.flex-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 20rem 20rem 20rem;
+  gap: 1rem;
+  width: 85%;
+    align-items: stretch;
+
+margin: 0 auto;
+}
+
+.galleryTitle{
+    text-align: center;
+    margin: 4rem 0 3rem;
+    font-size: 1.6rem;
+}
+
+@media (max-width: 780px) {
+    /*Mobile View */
+    .flex-container {
+        grid-template-columns: 85%;
+        justify-content: center;
+      }
+  }

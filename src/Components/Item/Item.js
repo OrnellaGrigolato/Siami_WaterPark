@@ -6,14 +6,17 @@ import { Button } from 'antd';
 
 function Item(props) {
   return (
-    <motion.a href="#" className="card" whileHover={{ scale: 1.06 }}>
-      <Link to={`/item/${props.id}`}>
+    <motion.a href="#" className="card">
+      <Link to={`/item/${props.id}`} className="flex-card-container">
         {' '}
-        <img src={props.pictureUrl} alt={props.title + ' image'} />
+        <img src={props.pictureUrl} alt={props.title + ' image'} className="card-image" />
         <p className="title">{props.title}</p>
         <p className="description">{props.description}</p>
         <p className="price">{props.price}</p>
-        <Button className="btn-info"> More info </Button>
+        <Button type="primary" className="btn-info">
+          {' '}
+          More info ➱
+        </Button>
       </Link>
     </motion.a>
   );

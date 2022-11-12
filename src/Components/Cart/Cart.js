@@ -50,8 +50,10 @@ function Cart() {
   };
 
   //total calculate
-  const totalExtras = extras?.reduce((ac, elem) => elem[1][1] + ac, 0);
-  const totalCart = cart.reduce((ac, elem) => elem.item.value * elem.quantity + ac, 0);
+  let totalExtras = extras?.reduce((ac, elem) => elem[1][1] + ac, 0);
+  let totalCart = cart.reduce((ac, elem) => elem.item.value * elem.quantity + ac, 0);
+  totalExtras = Math.round(totalExtras);
+  totalCart = Math.round(totalCart);
 
   //rendering for steps
   function conditionalRender() {
@@ -71,7 +73,7 @@ function Cart() {
                   </div>
                   <div className="quantityAndDelete">
                     <p>
-                      {elem.item.value} X {elem.quantity}
+                      $ {elem.item.value} X {elem.quantity}
                     </p>
                     <Button type="primary" onClick={() => removeItem(elem.item.id)}>
                       Delete
@@ -84,8 +86,10 @@ function Cart() {
             {cart[0] && (
               <div>
                 <p>
-                  Total:{' '}
-                  {cart.reduce((acc, current) => acc + current.item.value * current.quantity, 0)}
+                  Total:{' $ '}
+                  {Math.round(
+                    cart.reduce((acc, current) => acc + current.item.value * current.quantity, 0)
+                  )}
                 </p>
                 <Button type="primary" onClick={() => clear()}>
                   Delete all
@@ -284,7 +288,7 @@ function Cart() {
                         component={() => <div className="error">{errors.espDate}</div>}
                       />
                     </div>
-                    <footer className="footer">
+                    <footer className="form-buttons">
                       {current === 0 ? (
                         <Link to="/">
                           <Button>Back</Button>
@@ -346,10 +350,10 @@ function Cart() {
       {cart[0] && <div className="debugger"></div>}
       {
         //Changinig the button action according to current state
-        current !== 4 && (
+        current !== 4 && cart[0] && (
           <>
             {current !== 3 && (
-              <footer className="footer">
+              <footer className="cart-footer">
                 {current === 0 ? (
                   <Link to="/">
                     <Button>Back</Button>
